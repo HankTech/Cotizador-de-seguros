@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+header {
+  background-color:#26C6DA;
+  color: white;
+  margin-top: 7%;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin:0;
+  text-align: center;
+}
+
+.button {
+  background-color: #00838F!important;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+    
+.summary {
+  background-color: #00838F;
+  color: white;
+  
+}
+.summary li {
+  list-style: none;
+}
+
+.total {
+  background-color: rgb(127, 224, 237);
+  border: 1px solid #26C6DA;
+  color: black;
+}
+
+span.result {
+  position: relative;
+  text-align: center;
+}
+
+.result-enter {
+  transition: .5s;
+  transform: translateY(120%) ;
+}
+
+.result-enter-active {
+  transform: translateY(120%);
+}
+.result-exit {
+  transform: translateY(0);
+  transition:.5s;
+  position : absolute;
+  left: 0;
+  bottom : 0;
+  width: 100%;
+}
+.result-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+}
